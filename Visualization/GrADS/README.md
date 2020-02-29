@@ -1,8 +1,7 @@
-GrADS Manual
+# GrADS Manual
 
-Table of contents
-=================
 
+# Table of contents
 <!--ts-->
    * [Environmental Configuration](#env-conf)
    * [Fundamental Knowledge](#knowledge)
@@ -18,9 +17,10 @@ Table of contents
    * [Reference](#grads-reference)
 <!--te-->
 
+-----------------------------
 
 # Environmental Configuration
-
+<kbd>Alt + D</kbd>を押してTerminalを複製。
 
 # Fundamental Knowledge
 ## NetCDF Format or Binary Format
@@ -37,6 +37,7 @@ read a binary file as the litte endian
 ```
 option little_endian
 ```
+
 
 # Fundamental Operation
 ## Boot and Exit
