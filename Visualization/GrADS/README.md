@@ -1,21 +1,23 @@
 # GrADS Manual
 
 
-# Table of contents
+# Table of Contents(TOC)
 <!--ts-->
-   * [Environmental Configuration](#env-conf)
-   * [Fundamental Knowledge](#knowledge)
-      * [NetCDF Format  or Binary Format](#format-type)
-   * [Fundamental Operation](#operation)
-      * [Boot and Exit](#boot-exit)
-         * [Boot of GrADS](grads-boot)
-         * [Exit from GrADS](grads-exit)
-   * [Analysis](#grads-analysis)
-      * [Contour Env](#contour-env)
-      * [Shade Env](#shade-env)
-   * [GrADS Script](#grads-script)
-   * [Reference](#grads-reference)
+* [Environmental Configuration](#environmental-configuration)
+* [Fundamental Knowledge](#fundamental-knowledge)
+  * [NetCDF Format or Binary Format](#netcdf-format-or-binary-format)
+* [Fundamental Operation](#fundamental-operation)
+  * [Boot and Exit](#boot-and-exit)
+    * [Boot of GrADS](#boot-of-grads)
+    * [Exit from GrADS](#exit-from-grads)
+* [Analysis](#analysis)
+    * [Contour Env](#contour-env)
+    * [Shade Env](#shade-env)
+* [GrADS Script](#grads-script)
+* [Reference](#reference)
+* [License](#license)
 <!--te-->
+
 
 -----------------------------
 
@@ -54,13 +56,16 @@ quit
 
 # Analysis
 ## Contour Env
-
-
+```
+set gxout contour
+```
 ## Shade Env
-
+```
+set gxout shade2
+```
 
 # GrADS Script
-
+.gs file
 
 
 # Reference
@@ -68,7 +73,7 @@ quit
 * [Tohoku University](http://wind.gp.tohoku.ac.jp/index.php?%B8%F8%B3%AB%BE%F0%CA%F3/GrADS/GrADS%A4%CETips)
 
 
-
-
+# License
+<!-- <email@example.com> -->
 
 
