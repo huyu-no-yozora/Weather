@@ -1,10 +1,29 @@
-# GrADS Manual
+GrADS Manual
+
+Table of contents
+=================
+
+<!--ts-->
+   * [Environmental Configuration](#env-conf)
+   * [Fundamental Knowledge](#knowledge)
+      * [NetCDF Format  or Binary Format](#format-type)
+   * [Fundamental Operation](#operation)
+      * [Boot and Exit](#boot-exit)
+         * [Boot of GrADS](grads-boot)
+         * [Exit from GrADS](grads-exit)
+   * [Analysis](#grads-analysis)
+      * [Contour Env](#contour-env)
+      * [Shade Env](#shade-env)
+   * [GrADS Script](#grads-script)
+   * [Reference](#grads-reference)
+<!--te-->
+
 
 # Environmental Configuration
 
 
 # Fundamental Knowledge
-## NetCDF Format or Binary
+## NetCDF Format or Binary Format
 
 ### NetCDF
 
@@ -32,7 +51,7 @@ grads -l
 quit
 ```
 
-# Analysis {#grads-analysis-id}
+# Analysis
 ## Contour Env
 
 
